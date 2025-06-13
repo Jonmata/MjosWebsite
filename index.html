@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' 'unsafe-inline' https://unpkg.com https://maps.googleapis.com;
+  style-src 'self' 'unsafe-inline' https://unpkg.com;
+  frame-src https://www.google.com https://www.youtube.com;
+  img-src 'self' data: https://tile.openstreetmap.org;
+  connect-src 'self' https://tile.openstreetmap.org;
+">
+  <meta name="referrer" content="no-referrer"> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MJOS Barbershop & Salon</title> 
+  <link rel="shortcut icon"  type="x-icon" href="./Images/mjosLogo.svg">
+  <link rel="stylesheet" href="./style/index.css" >
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <nav>
+    <a href="https://booksy.com/en-us/1496410_mjos-barbershop-salon_barber-shop_30630_riverhead#ba_s=sh_1"><button class="btn">Book Now</button></a>
+    <a href="#home">Home</a>
+    <a href="#home"><img src="./Images/mjosLogo.svg"></a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+  <div class="coracalDisplay">
+    <div class="banner">
+      <div class="slider" style="--quantity: 10">
+        <div class="item" style="--position: 1">
+          <img src="./Images/image1.png">
+        </div>
+        <div class="item" style="--position: 2">
+          <img src="./Images/image2.png">
+        </div>
+        <div class="item" style="--position: 3">
+          <img src="./Images/image3.png">
+        </div>
+        <div class="item" style="--position: 4">
+          <img src="./Images/image4.png">
+        </div>
+        <div class="item" style="--position: 5">
+          <img src="./Images/image5.png">
+        </div>
+        <div class="item" style="--position: 6">
+          <img src="./Images/image6.png">
+        </div>
+        <div class="item" style="--position: 7">
+          <img src="./Images/image7.png">
+        </div>
+        <div class="item" style="--position: 8">
+          <img src="./Images/image8.png">
+        </div>
+        <div class="item" style="--position: 9">
+          <img src="./Images/image9.png">
+        </div>
+        <div class="item" style="--position: 10">
+          <img src="./Images/image10.png">
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <h1>MJOS</h1>
+      <div class="sayings">
+        <p>Classic Cuts & Timeless Style</p>
+        <img src="./Images/BarberShop-Pole-RedBlue-2.svg">
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="services" id="services">
+    <h3>Our Services</h3>
+    <div class="service-list">
+      <div class="service-item">
+        <h4>Haircut & Beard</h4>
+        <p>Hot towel inculded</p>
+        <p>estimated time 1 hour</p>
+        <p>Price: $50.00</p>
+      </div>
+      <div class="service-item">
+        <h4>Male Haircut of Choice</h4>
+        <p>estimated time 40 min</p>
+        <p>Price: $30.00</p>
+      </div>
+      <div class="service-item">
+        <h4>Military haircut</h4>
+        <p>estimated time 35 min</p>
+        <p>Price: $25.00</p>
+      </div>
+      <div class="service-item">
+        <h4>Kids Haircut of Choice</h4>
+        <p>estimated time 35 min</p>
+        <p>Price: $25.00</p>
+      </div>
+      <div class="service-item">
+        <h4>Bear shape up</h4>
+        <p>Hot towel included</p>
+        <p>estimated time 20 min</p>
+        <p>Price: $20.00</p>
+      </div>
+      <div class="service-item">
+        <h4>Shaved head</h4>
+        <p>Hot towel included </p>
+        <p>estimated time 30 min</p>
+        <p>Price: $25.00</p>
+      </div>
+      <div class="service-item">
+        <h4>Shaved head and bread trim</h4>
+        <p>estimated time 45 min</p>
+        <p>Price: $40.00</p>
+      </div>
+      <div class="service-item">
+        <h4>Line up</h4>
+        <p>estimated time 20 min</p>
+        <p>Price: $15.00</p>
+      </div>
+    </div>
+    <h3>Additional Services</h3>
+    <div class="add_ons">
+      <div class="service-item">
+        <h4>Hair design</h4>
+        <p>+15 min</p>
+        <p>addional: $10.00</p>
+      </div>
+      <div class="service-item">
+       <h4>Eyebrow shaping</h4>
+         <p>+10 min</p>
+       <p>addional: $5.00</p>
+     </div>
+     <div class="service-item">
+       <h4>Hair wash</h4>
+       <p>+10 min</p>
+       <p>addional: $10.00</p>
+     </div>
+    </div>
+  </section>
+
+  <section  class="contact" id="contact">
+    <div class="location">
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=..." 
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 MJOS Barbershop & Salon. All rights reserved.</p>
+  </footer>
+</body>
+</html>
