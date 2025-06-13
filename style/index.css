@@ -57,6 +57,11 @@
     color: var(--navy-blue);
     font-size: 1.8em;
   }
+  .services h4 {
+    text-align: center;
+    color: var(--navy-blue);
+    font-size: 1.5em;
+  }
 
   .service-list {
     display: flex;
